@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Website</title>
+</head>
+<body>
+    <table id="TABLE" border="1">
+
+    </table><br>
+    <h3 id="TP"></h3><br>
+    <form method ="POST" action="billing.jsp">
+        <b>Alter Product Count</b><br>
+        <label for="id">PRODUCT ID: &emsp;&emsp;&emsp;&nbsp; </label>
+        <input type="text" name="id" id="ID" required><br>
+        <label for="count">New PRODUCT Count:</label>
+        <input type="text" name="count" id="COUNT" required><br>
+        <input type="submit" onclick="change()">
+    </form><br>
+    <button onclick="checkout()">CHECKOUT</button>
+<script src="script.js"></script>
+</body>
+</html>
